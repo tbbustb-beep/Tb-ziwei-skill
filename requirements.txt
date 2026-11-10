@@ -1,0 +1,4 @@
+# ziwei 不在清华镜像，请用 -i https://pypi.org/simple 安装
+ziwei==0.4.1
+# 可选：出生地不在内置城市表时联网解析经度
+geopy>=2.4
