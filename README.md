@@ -103,7 +103,17 @@ ziwei-skill/
 └─ requirements.txt
 ```
 
-## 8. 致谢与许可
+## 8. 同类项目
+
+发布后检索到几个更早的同类项目。如果只是想直接用现成的，可以先看这些：
+
+- [dzcmemory-web/bazi-ziwei-skills](https://github.com/dzcmemory-web/bazi-ziwei-skills)：八字 + 紫微综合印证，支持 HTML 命盘海报，社区热度最高
+- [mingze21/bazi-ziwei-skill](https://github.com/mingze21/bazi-ziwei-skill)：同一路线的另一份实现
+- [shanrichard/ziwei-skill](https://github.com/shanrichard/ziwei-skill)：Claude Code / OpenClaw 的紫微 Skill
+
+本项目的差异：运行时纯 Python，不依赖 Node/iztro；排盘口径显式可选；自带终端十二宫盘与 10 张参照盘自检；并用 iztro 做过 580 张盘的交叉验证。
+
+## 9. 致谢与许可
 
 - 农历与核心安星：[ziwei](https://github.com/0xf3cd/ziwei)（MIT），历法依赖 [celestial-calendar](https://github.com/0xf3cd/celestial-calendar)。
 - 杂曜与十二神公式对照：[iztro](https://github.com/SylarLong/iztro)（MIT）。
