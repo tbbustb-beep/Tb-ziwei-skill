@@ -267,7 +267,7 @@ def parse_params(raw: dict) -> dict:
             try:
                 from geopy.geocoders import Nominatim  # type: ignore
 
-                geo = Nominatim(user_agent="ziwei-skill/1.0")
+                geo = Nominatim(user_agent="Tb-ziwei-skill/1.0")
                 location = geo.geocode(place, timeout=8)
                 if location is None:
                     raise LookupError(place)

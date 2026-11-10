@@ -1,4 +1,6 @@
-# ziwei-skill
+# Tb-ziwei-skill
+
+紫微斗数排盘与解读 Agent Skill。GitHub：https://github.com/tbbustb-beep/Tb-ziwei-skill
 
 把紫微斗数排盘、命盘存档与对话式解读，打包成一个可执行、可复用、可存档的 Agent Skill。
 
@@ -10,7 +12,7 @@
 
 大模型手排紫微盘，最容易错在三处：农历换算、命宫身宫、五行局起紫微。一步错，后面十四主星、四化、大限全盘皆错。
 
-ziwei-skill 因此把工作拆成三层：
+Tb-ziwei-skill 因此把工作拆成三层：
 
 - **计算层（Python）**：农历/公历换算、真太阳时、命身宫、五行局、十四主星、六吉六煞、禄存天马、红鸾天喜、大限、小限；四化、杂曜、十二神、流年由本地规则模块补齐。
 - **结构层（JSON）**：脚本输出完整的十二宫、星曜庙旺、四化落宫、大限流年，Agent 不需要也不允许自己补星。
@@ -91,7 +93,7 @@ $params | & $PY "$SKILL_DIR\calculate_ziwei.py" --json |
 ## 7. 目录
 
 ```
-ziwei-skill/
+Tb-ziwei-skill/
 ├─ SKILL.md               # 给 Agent 的完整操作与解读规范
 ├─ calculate_ziwei.py     # 排盘 CLI
 ├─ store_ziwei.py         # 命盘存档
