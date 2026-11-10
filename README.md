@@ -2,6 +2,8 @@
 
 紫微斗数排盘与解读 Agent Skill。GitHub：https://github.com/tbbustb-beep/Tb-ziwei-skill
 
+> 项目/仓库名为 `Tb-ziwei-skill`；本地技能目录与调用名仍是 `ziwei-skill`，保证已有命令与存档路径不变。
+
 把紫微斗数排盘、命盘存档与对话式解读，打包成一个可执行、可复用、可存档的 Agent Skill。
 
 不是“会说紫微”的提示词壳子，而是“先算准，再讲清”的完整链路。适用于 DSH、Claude Code、OpenClaw 等支持读取 `SKILL.md` 并执行本地命令的 Agent 框架。

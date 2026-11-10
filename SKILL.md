@@ -6,6 +6,8 @@ metadata: {"openclaw":{"source":"local"}}
 
 # 紫微斗数
 
+> 项目/仓库名：`Tb-ziwei-skill`。本技能的调用名与安装目录仍为 `ziwei-skill`，不要改路径。
+
 紫微斗数排盘与命理解读。排盘、存档、流年换算由本地 Python 脚本完成，你只负责解读。
 
 ## 安装位置
